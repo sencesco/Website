@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Font-Size</title>
+  <style>
+    html {
+      font-size: xx-large;
+    }
+
+      footer {
+        font-size: 12pt;
+      }
+
+        #pixel {
+          font-size: 20px;
+        }
+
+        #point {
+          font-size: 20pt;
+        }
+
+        #em {
+          font-size: 1em;
+        }
+
+        #rem {
+          font-size: 1rem;
+        }
+
+  </style>
+</head>
+<html lang="en">
+
+<body>
+  <p id="pixel">1 Pixel is 1/96 of an Inch = 0.26mm.</p>
+  <p id="point">1 Point is 1/72 of an Inch = 0.35mm.</p>  <!-- This same size of application use such as Microsoft word--> 
+  <footer>
+    <!-- 
+        if footer have font size = 12 pt,    So <p id-"em"> = 1em will have font size = 12x1.0 = 12pt 
+                                             So <p id-"em"> = 1.5em will have font size = 12x1.5 = 18pt
+        if footer change font size to 15pt,  So <p id-"em"> = 1.5em will have font size = 15x1.5 = 2.5pt
+    -->
+    <p id="em">1em is 100% the size of the parent element</p> 
+
+    <!---
+          Actually root element we know as <html> element, This way even if <p id="rem"> in <footer> element but font size ref to  <html> element
+        So the font size of <p id="rem"> will change when font size in <footer> element will change
+        if html have font size = xx-large pt,    So <p id-"rem"> = 1.5rem will have font size larger then html font size about 1.5 times
+
+        And normally recommend thie rem size, because in CSS file have different things embedded in others,                                         
+    -->
+    <p id="rem">1rem is 100% the size of the root element</p>
+  </footer>
+</body>
+
+</html>

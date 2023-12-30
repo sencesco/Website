@@ -1,0 +1,16 @@
+Font Weight
+----------------------
+h {
+  font-weight: normal;
+}
+----------------------
+
+We can use by seperate 3 type of frront weight
+	- Keyword
+		- normal
+		- bold
+	- Relative to Parent
+		- lighter
+		- bolder
+	- number 
+		- from use a specific number 100-900

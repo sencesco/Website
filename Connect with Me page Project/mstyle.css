@@ -1,0 +1,54 @@
+html {
+  text-align: center;
+  font-size: large;
+}
+  body {
+    background-color: lightblue;
+  }
+    div.h1 {
+    background-image: url(asset/image/bg1.jpg);
+    border: solid lightgreen;
+    border-width: 3px 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    }
+      h1 {
+        font-family: 'Turret Road', cursive;
+        color: #2c6cf7f5;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+      }
+      p {
+        font-family: cursive;
+        color: rgb(14, 102, 68);
+        font-size: 1rem;
+      }
+      div.h2 {
+        background-image: url(asset/image/bg2.jpg) ;     
+        width: 85%;
+        margin-left: 22px;
+        padding: 50px;
+        margin-top: 50px;
+      }
+        h2 {
+          font-family: cursive;
+          color: rgb(39, 190, 190);
+          font-size: 1.2rem;
+          margin: 0;
+          margin-bottom: 2%;
+        }
+        h2.t2 {
+          margin-top: 30px;
+        }
+          img {
+            margin-top: px;
+          }
+          a {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: rgb(184, 113, 55);
+            font-size: 0.8rem;
+            margin:  0px;
+            padding: 10px;
+          }
+          

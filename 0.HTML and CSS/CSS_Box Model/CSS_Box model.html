@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+    }
+      #first {
+        background-color: cadetblue;
+        padding: 20px;
+        border: 10px solid black;
+      }
+        /* For make equal all side of padding from <div> element, We can do it ,
+           by remove all margins of the <p> element */
+        p {
+          margin: 0;
+        }
+
+      #second {
+        background-color: gold;
+        padding: 10px;
+        border: solid black;
+        /* Add multi-vale of border-width 
+            - Add 2 values is mean Top-Bot, Left-Right
+            - Add max value is 4 number is mean Top, Right, Boottom, Left.
+              They are order ollowing clockwise step
+        */
+        border-width: 20px 10px;
+        /* Shift the boox to right by add margin to left*/
+        margin-left: 260px;
+        /*Justify is meaning wrap a text in Microsoft Word*/
+        text-align: justify;
+      }
+
+      #third {
+        background-color: indianred;
+        border: 10px solid black;
+        margin-left: 40px;
+      }
+  </style>
+</head>
+
+<body>
+  <div id="first">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+    id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+    dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+  </div>
+  <div id="second">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In
+      id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus
+      dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.</p>
+  </div>
+  <div id="third"></div>
+</body>
+
+</html>

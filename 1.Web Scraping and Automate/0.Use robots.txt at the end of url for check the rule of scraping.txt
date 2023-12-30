@@ -1,0 +1,1 @@
+use /robots.txt at the end of url of web site to check it the rule.
